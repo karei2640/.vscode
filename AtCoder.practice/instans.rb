@@ -1,13 +1,13 @@
 class Person
-    def initialize(name)
-      @name = name
-    end
-  
-    def greet
-      puts "Hello, #{@name}!"
-    end
+  def initialize(name)
+  @name = name
   end
   
-  person = Person.new("Alice")
-  person.greet
+  def greet
+  puts "こんにちは、#{@name}さん！"
+  end
+  end
   
+  person = Person.new("名前")
+  person.greet
+
