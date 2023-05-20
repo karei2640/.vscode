@@ -1,10 +1,10 @@
-name = "Alice"
-greeting = "Hello, #{name}!"
+name = "名前"
+greeting = "こんにちは、#{name}さん！"
 puts greeting
 
 person = {
-    "name" => "John",
-    "age" => 30,
-    "city" => "Tokyo"
-  }
-  puts "#{person['name']} is #{person['age']} years old and lives in #{person['city']}."
+"name" => "名前",
+"age" => 30,
+"city" => "東京"
+}
+puts "#{person['name']}さんは#{person['age']}歳で、#{person['city']}に住んでいます。"
