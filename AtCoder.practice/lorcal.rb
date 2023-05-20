@@ -39,3 +39,19 @@ base = 2
 exponent = 3
 result = base ** exponent
 puts "#{base} の #{exponent} 乗は #{result} です。"
+
+number = 16
+square_root = Math.sqrt(number)
+puts "#{number} の平方根は #{square_root} です。"
+
+number = -10
+absolute_value = number.abs
+puts "#{number} の絶対値は #{absolute_value} です。"
+
+number = 16
+sqrt = Math.sqrt(number)
+puts "#{number} の平方根は #{sqrt} です。"
+
+number = 100
+logarithm = Math.log10(number)
+puts "#{number} の常用対数は #{logarithm} です。"
