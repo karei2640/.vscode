@@ -28,6 +28,13 @@ divisor = 2
 quotient = dividend / divisor
 puts "#{dividend} を #{divisor} で割った商は #{quotient} です。"
 
+dividend = 10
+divisor = 3
+quotient = dividend / divisor
+remainder = dividend % divisor
+
+puts "#{dividend} を #{divisor} で割った商は #{quotient} で、余りは #{remainder} です。"
+
 base = 2
 exponent = 3
 result = base ** exponent
