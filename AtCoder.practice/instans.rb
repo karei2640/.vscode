@@ -6,7 +6,7 @@ class Person
   def greet
   puts "こんにちは、#{@name}さん！"
   end
-  end
+end
   
   person = Person.new("名前")
   person.greet
